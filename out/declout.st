@@ -1,0 +1,21 @@
+PROGRAM x09_CaseVsIfElsifVAR CONSTANTcNrRuns : USINT(0..9) := 5;
+cRepeatCalcTimes : UDINT := 1000000;
+ //1 Million timesEND_VARVAR_INPUTvStart : BOOL := FALSE;
+END_VARVARvDone : BOOL := FALSE;
+vRunsCompleted : USINT := 0;
+vStartTime : LTIME;
+vTotalTime : LTIME;
+vTest1 : dtSpeedTest;
+vTest2 : dtSpeedTest;
+vTest3 : dtSpeedTest;
+vTest4 : dtSpeedTest;
+vTest5 : dtSpeedTest;
+vTest6 : dtSpeedTest;
+i : UDINT;
+//Test varsvFirstIndex : INT := 15;
+vMiddleIndex : INT := 50;
+vLastIndex : INT := 99;
+vResultFirst : INT;
+ //Should be 0vResultMiddle : INT;
+ //Should be 50vResultLast : INT;
+//Should be 99END_VAR
